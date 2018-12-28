@@ -73,6 +73,7 @@ public class createpage extends HttpServlet {
 					while(rs.next())
 					{
 						String tn=rs.getString("tnum");
+						
 						String prod=rs.getString("product");
 						String pd=rs.getString("pdesc");
 						String cont=rs.getString("cont");
